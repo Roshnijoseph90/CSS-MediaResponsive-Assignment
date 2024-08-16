@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    display: grid;
+    gap: 1em;
+    padding: 1em;
+}
+
+.text-block {
+    border: 1px solid #ddd;
+    padding: 1em;
+    background-color: lightgreen;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px; 
+    padding: 10px; 
+    display: grid;
+
+}
+.block1{
+    background-color: white;
+    color: black;
+}
+@media screen and (min-width: 768px)  {
+    .text-block{
+        background-color:lightblue;
+    }
+    p{
+        color: darkblue;
+    }
+}
